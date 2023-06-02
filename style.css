@@ -1,0 +1,98 @@
+ /* .per
+{
+    color: red;
+} */
+a[href*="about.html"]
+{
+    color: white;
+    font-size: 120px;
+    /* text-transform: uppercase; */
+    position: relative;
+   top: 50px;
+   left: 2800px;
+} 
+/* anchor tag $ for ends with this no.
+* this includes
+= equals exactly same */
+
+h1
+{
+    
+    font-size:300px ;
+    color: rgb(32, 17, 66);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+   text-align: center ;
+   letter-spacing: 7px;
+   position: relative;
+   top: 300px;
+   
+}
+p{
+    font-family: sans-serif;
+    color: rgb(77, 19, 92);
+    font-size:120px ;
+    position: relative;
+   top: 100px;
+   left: 2000px;
+}
+.pq{
+    font-family: sans-serif;
+    color: black;
+    font-size:120px ;
+    position: relative;
+   top: 650px;
+   left: 2800px;
+}
+section{
+    border: 50px solid grey;
+    height:90vh;
+
+    font-display: flex;
+    align-items: centre;
+    justify-content: centre;
+}
+.fa {
+ 
+    font-size: 120px;
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+   text-decoration: none;
+   position: relative;
+   top: 600px;
+   left: 1670px;
+   /* border: solid black; */
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+    border: solid #3B5998;
+  }
+  
+  .fa-instagram {
+    background: #be1b96;
+    color: white;
+    border: solid #be1b96;
+  }
+  .fa-github {
+    background: #fdf9fc;
+    color: rgb(5, 0, 0);
+    border: solid rgb(151, 130, 130);
+  }
+  .sy{
+    font-family: sans-serif;
+    color: black;
+    font-size:60px ;
+    position: relative;
+   top: -30px;
+   left: 3700px;
+  }
